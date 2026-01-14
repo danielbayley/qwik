@@ -213,7 +213,7 @@ importers:
         version: 8.26.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.4.5)
       undici:
         specifier: '*'
-        version: 6.6.2
+        version: 6.23.0
       vfile:
         specifier: 6.0.2
         version: 6.0.2
@@ -407,7 +407,7 @@ importers:
         version: 5.4.5
       undici:
         specifier: '*'
-        version: 6.6.2
+        version: 6.23.0
       valibot:
         specifier: 0.33.3
         version: 0.33.3
@@ -541,7 +541,7 @@ importers:
         version: 8.26.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.4.5)
       undici:
         specifier: '*'
-        version: 6.6.2
+        version: 6.23.0
       vite:
         specifier: 5.3.5
         version: 5.3.5(@types/node@20.14.11)(lightningcss@1.29.1)(terser@5.31.3)
@@ -618,7 +618,7 @@ importers:
         version: 3.3.2
       undici:
         specifier: '*'
-        version: 6.6.2
+        version: 6.23.0
       valibot:
         specifier: '>=0.36.0 <2'
         version: 0.42.1(typescript@5.4.5)
@@ -750,7 +750,7 @@ importers:
         version: 8.26.1(eslint@9.25.1(jiti@2.4.2))(typescript@5.4.5)
       undici:
         specifier: '*'
-        version: 6.6.2
+        version: 6.23.0
       vite:
         specifier: 5.3.5
         version: 5.3.5(@types/node@20.14.11)(lightningcss@1.29.1)(terser@5.31.3)
@@ -974,6 +974,7 @@ packages:
   '@builder.io/partytown@0.10.2':
     resolution: {integrity: sha512-A9U+4PREWcS+CCYzKGIPovtGB/PBgnH/8oQyCE6Nr9drDJk6cMPpLQIEajpGPmG9tYF7N3FkRvhXm/AS9+0iKg==}
     engines: {node: '>=18.0.0'}
+    deprecated: Use @qwik.dev/partytown instead
     hasBin: true
 
   '@builder.io/sdk-qwik@0.14.31':
@@ -1105,6 +1106,7 @@ packages:
 
   '@effect/schema@0.66.5':
     resolution: {integrity: sha512-xfu5161JyrfAS1Ruwv0RXd4QFiCALbm3iu9nlW9N9K+52wbS0WdO6XUekPZ9V/O7LN+XmlIh5Y9xhJaIWCZ/gw==}
+    deprecated: this package has been merged into the main effect package
     peerDependencies:
       effect: ^3.0.3
       fast-check: ^3.13.2
@@ -7515,6 +7517,7 @@ packages:
 
   moize@6.1.6:
     resolution: {integrity: sha512-vSKdIUO61iCmTqhdoIDrqyrtp87nWZUmBPniNjO0fX49wEYmyDO4lvlnFXiGcaH1JLE/s/9HbiK4LSHsbiUY6Q==}
+    deprecated: This library has been deprecated in favor of micro-memoize, which as-of version 5 incorporates most of the functionality that this library offers at nearly half the size and better speed.
 
   monaco-editor@0.45.0:
     resolution: {integrity: sha512-mjv1G1ZzfEE3k9HZN0dQ2olMdwIfaeAAjFiwNprLfYNRSz7ctv9XuCT7gPtBGrMUeV1/iZzYKj17Khu1hxoHOA==}
@@ -7626,8 +7629,8 @@ packages:
     engines: {node: '>=10.5.0'}
     deprecated: Use your platform's native DOMException instead
 
-  node-fetch-native@1.6.6:
-    resolution: {integrity: sha512-8Mc2HhqPdlIfedsuZoc3yioPuzp6b+L5jRCRY1QzuWZh2EGJVQrGppC6V6cF0bLdbW0+O2YpqCA25aF/1lvipQ==}
+  node-fetch-native@1.6.7:
+    resolution: {integrity: sha512-g9yhqoedzIUm0nTnTqAQvueMPVOuIY16bqgAJJC8XOOubYFNwz6IER9qs0Gq2Xd0+CecCKFjtdDTMA4u4xG06Q==}
 
   node-fetch@2.7.0:
     resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
@@ -8344,6 +8347,7 @@ packages:
   puppeteer@22.13.1:
     resolution: {integrity: sha512-PwXLDQK5u83Fm5A7TGMq+9BR7iHDJ8a3h21PSsh/E6VfhxiKYkU7+tvGZNSCap6k3pCNDd9oNteVBEctcBalmQ==}
     engines: {node: '>=18'}
+    deprecated: < 24.15.0 is no longer supported
     hasBin: true
 
   pure-rand@6.1.0:
@@ -9478,6 +9482,9 @@ packages:
   ufo@1.6.1:
     resolution: {integrity: sha512-9a4/uxlTWJ4+a5i0ooc1rU7C7YOw3wT+UGqdeNNHWnOF9qcMBgLRS+4IYUqbczewFx4mLEig6gawh7X6mFlEkA==}
 
+  ufo@1.6.2:
+    resolution: {integrity: sha512-heMioaxBcG9+Znsda5Q8sQbWnLJSl98AFDXTO80wELWEzX3hordXsTdxrIfMQoO9IY1MEnoGoPjpoKpMj+Yx0Q==}
+
   uid-safe@2.1.5:
     resolution: {integrity: sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==}
     engines: {node: '>= 0.8'}
@@ -9498,13 +9505,13 @@ packages:
   undici-types@5.26.5:
     resolution: {integrity: sha512-JlCMO+ehdEIKqlFxk6IfVoAUVmgz7cU7zD/h9XZ0qzeosSHmUJVOzSQvvYSYWXkFXC+IfLKSIffhv0sVZup6pA==}
 
-  undici@5.28.4:
-    resolution: {integrity: sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==}
+  undici@5.29.0:
+    resolution: {integrity: sha512-raqeBD6NQK4SkWhQzeYKd1KmIG6dllBOTt55Rmkt4HtI9mwdWtJljnrXjAFUBLTSN67HWrOIZ3EPF4kjUw80Bg==}
     engines: {node: '>=14.0'}
 
-  undici@6.6.2:
-    resolution: {integrity: sha512-vSqvUE5skSxQJ5sztTZ/CdeJb1Wq0Hf44hlYMciqHghvz+K88U0l7D6u1VsndoFgskDcnU+nG3gYmMzJVzd9Qg==}
-    engines: {node: '>=18.0'}
+  undici@6.23.0:
+    resolution: {integrity: sha512-VfQPToRA5FZs/qJxLIinmU59u0r7LXqoJkCzinq3ckNJp3vKEh7jTWN589YQ5+aoAC/TGRLyJLCPKcLQbM8r9g==}
+    engines: {node: '>=18.17'}
 
   unenv-nightly@1.10.0-1717606461.a117952:
     resolution: {integrity: sha512-u3TfBX02WzbHTpaEfWEKwDijDSFAHcgXkayUZ+MVDrjhLFvgAJzFGTSTmwlEhwWi2exyRQey23ah9wELMM6etg==}
@@ -12040,7 +12047,7 @@ snapshots:
       '@octokit/plugin-paginate-rest': 9.2.1(@octokit/core@5.2.0)
       '@octokit/plugin-rest-endpoint-methods': 10.4.1(@octokit/core@5.2.0)
       '@octokit/types': 12.6.0
-      undici: 6.6.2
+      undici: 6.23.0
 
   '@octokit/auth-action@4.1.0':
     dependencies:
@@ -17319,7 +17326,7 @@ snapshots:
       exit-hook: 2.2.1
       glob-to-regexp: 0.4.1
       stoppable: 1.1.0
-      undici: 5.28.4
+      undici: 5.29.0
       workerd: 1.20240718.0
       ws: 8.18.0(bufferutil@4.0.8)(utf-8-validate@5.0.10)
       youch: 3.3.3
@@ -17621,7 +17628,7 @@ snapshots:
 
   node-domexception@1.0.0: {}
 
-  node-fetch-native@1.6.6: {}
+  node-fetch-native@1.6.7: {}
 
   node-fetch@2.7.0:
     dependencies:
@@ -17795,7 +17802,7 @@ snapshots:
   ofetch@1.3.3:
     dependencies:
       destr: 2.0.3
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       ufo: 1.6.1
 
   ohash@1.1.3: {}
@@ -19649,6 +19656,8 @@ snapshots:
 
   ufo@1.6.1: {}
 
+  ufo@1.6.2: {}
+
   uid-safe@2.1.5:
     dependencies:
       random-bytes: 1.0.0
@@ -19671,29 +19680,27 @@ snapshots:
 
   undici-types@5.26.5: {}
 
-  undici@5.28.4:
+  undici@5.29.0:
     dependencies:
       '@fastify/busboy': 2.1.0
 
-  undici@6.6.2:
-    dependencies:
-      '@fastify/busboy': 2.1.0
+  undici@6.23.0: {}
 
   unenv-nightly@1.10.0-1717606461.a117952:
     dependencies:
       consola: 3.4.2
       defu: 6.1.4
       mime: 3.0.0
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       pathe: 1.1.2
-      ufo: 1.6.1
+      ufo: 1.6.2
 
   unenv@1.10.0:
     dependencies:
       consola: 3.4.2
       defu: 6.1.4
       mime: 3.0.0
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       pathe: 1.1.2
 
   unicorn-magic@0.1.0: {}
@@ -19774,7 +19781,7 @@ snapshots:
       listhen: 1.6.0
       lru-cache: 10.2.0
       mri: 1.2.0
-      node-fetch-native: 1.6.6
+      node-fetch-native: 1.6.7
       ofetch: 1.3.3
       ufo: 1.6.1
     optionalDependencies:
